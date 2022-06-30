@@ -1154,7 +1154,7 @@
                             className:  "colorRegion"
                         })
                         .setHTML(`<h3 style="color:${textColor}; background-color:${color};"><b>${name}</b></h3>
-                            <h4><b>Mudança de precipitação</b>: ${precipitation>0?"+"+precipitation:precipitation}%<br></h4>`)
+                            <h4><b>Mudança de precipitação</b>: ${precipitation>0?"+"+precipitation.toString().replaceAll(".",","):precipitation.toString().replaceAll(".",",")}%<br></h4>`)
                         .setLngLat(e.lngLat)
                         .addTo(map);
 

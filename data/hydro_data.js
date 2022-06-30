@@ -467,7 +467,7 @@ var data = [
       "ShareholderNationality":"Estados Unidos",
       "PlantRiver":"Maipo",
       "Latitude":-33.5947815936975,
-      "Longitude":", -70.37277315609622",
+      "Longitude":-70.37277315609622,
       "Status":"Operacional",
       "Capacity":531,
       "Year":2022,
